@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="Nikki Peel's Web Development portfolio" />
+    <meta name="keywords" content="HTML, CSS, Bootsrap, JavaScript" />
+    <meta name="author" content="Nikki Peel" />
+
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Portfolio - Nikki Peel</title>
+  </head>
+  <body>
+    <!-- Mobile Nav -->
+    <nav class="navbar sticky-top d-lg-none navbar-dark bg-dark">
+      <div class="navbar-brand d-flex-column">Nikki Peel</div>
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarText">
+        <ul class="navbar-nav mx-auto mb-4">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="education.html">Education</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="works.html"
+              >Portfolio<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <img src="img/selfie.jpg" alt="" />
+        <h1 class="pt-4">Nikki Peel</h1>
+        <p>Front End Developer</p>
+        <p id="resume-mobile">
+          <a href="resume1220.pdf"
+            ><i class="fas fa-download"></i> Download Resume</a
+          >
+        </p>
+
+        <ul class="nav row p-0 mt-4" id="social-mobile">
+          <li class="col-sm-6 nav-item">
+            <a class="nav-link" href="mailto:nikkipeel.dev@gmail.com"
+              ><i class="fas fa-envelope"></i> Email Me
+            </a>
+          </li>
+          <li class="col-sm-6 nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/nikkipeel"
+              ><i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </li>
+          <li class="col-sm-6 nav-item">
+            <a class="nav-link" href="https://www.github.com/nikkipeel"
+              ><i class="fab fa-github"></i> Github
+            </a>
+          </li>
+          <li class="col-sm-6 nav-item">
+            <a class="nav-link" href="https://www.codepen.io/nikki-peel"
+              ><i class="fab fa-codepen"></i> Codepen
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-lg-3 d-none d-lg-block p-0 sidebar text-white">
+          <div class="sidebar-sticky">
+            <div class="nav-header text-center">
+              <img id="sidebar-img" src="img/selfie.jpg" alt="" />
+              <h1>Nikki Peel</h1>
+              <p>Front End Developer</p>
+              <p id="resume">
+                <a href="resume1220.pdf"
+                  ><i class="fas fa-download"></i> Download Resume</a
+                >
+              </p>
+            </div>
+            <ul class="nav flex-column mx-auto pb-4 text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="education.html">Education </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="works.html">Portfolio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact </a>
+              </li>
+            </ul>
+
+            <p class="text-center p-4">Thank you for visiting my portfolio!</p>
+            <ul class="nav" id="social">
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:nikkipeel.dev@gmail.com"
+                  ><i class="fas fa-envelope"></i> Email Me
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/nikkipeel"
+                  ><i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.github.com/nikkipeel"
+                  ><i class="fab fa-github"></i> Github
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.codepen.io/nikki-peel"
+                  ><i class="fab fa-codepen"></i> Codepen
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main
+          role="main"
+          class="container col-md-8 m-auto p-4 d-lg-block d-none"
+          id="works"
+        >
+          <!-- Carousel -->
+          <div
+            id="carouselExampleControls"
+            class="carousel slide align-center"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner container">
+              <div class="carousel-item active">
+                <div class="row">
+                  
+                  <!-- Project 1 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/slider.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Cannabiz</h5>
+                        <h6 class="card-subtitle mb-2">
+                          HTML, CSS, TailwindCSS
+                        </h6>
+                        <p class="card-text">
+                          Ecommerce page featuring sidebar navigation and full-width carousel
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/cannabiz/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/cannabiz"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Project 2 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/singlepost.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Technical Blog</h5>
+                        <h6 class="card-subtitle mb-2">
+                          React, TailwindCSS
+                        </h6>
+                        <p class="card-text">
+                          Blog template with custom color theme integrated with <a href="https://sanity.io" target="_blank">Sanity</a> CMS and deployed with Netlify
+                        </p>
+                        <a
+                          href="https://nikkipeel.netlify.app"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/react-sanity-portfolio/"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Project 3 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/nnblog2.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Nomadic Nobodies</h5>
+                        <h6 class="card-subtitle mb-2">
+                          Wordpress, CSS
+                        </h6>
+                        <p class="card-text">
+                          Custom theme for personal blog built with Wordpress featuring masonry grid layout for galleries and filter & search
+                        </p>
+                        <a
+                          href="https://nomadicnobodies.com"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                      </div>
+                    </div>
+                  </div> 
+
+                  <!-- Project 4 -->
+                  <div class="col-md-6">
+                    <div class="card card-works">
+                      <img
+                        src="img/hero.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">React Pizza</h5>
+                        <h6 class="card-subtitle mb-2">
+                          React, CSS
+                        </h6>
+                        <p class="card-text">
+                          Ecommerce website for Pizzeria using React, hooks and styled-components
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/react-pizza/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/react-pizza"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- Project 5 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                  <div class="card card-works">
+                    <img
+                    src="img/photoportfolio.png"
+                    class="card-img-top"
+                    alt="..."
+                    />
+                  <div class="card-body">
+                    <h5 class="card-title">Photography Portfolio</h5>
+                    <h6 class="card-subtitle mb-2">HTML, TailwindCSS</h6>
+                    <p class="card-text">
+                      Responsive Photography website with a dropdown menu and masonry grid layout for photos with hover animation
+                    </p>
+                    <a
+                      href="https://codepen.io/nikki-peel/pen/zYKBzzg"
+                      class="btn mr-2"
+                      ><i class="fas fa-link"></i> Visit on Codepen</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 6 -->
+              <div class="col-md-6 mb-4">
+                <div class="card card-works">
+                  <img
+                    src="img/tailwindblog.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                <div class="card-body">
+                  <h5 class="card-title">Tailwind Blog</h5>
+                    <h6 class="card-subtitle mb-2">
+                      HTML, TailwindCSS
+                    </h6>
+                    <p class="card-text">
+                          Responsive blog template built with TailwindCSS
+                    </p>
+                    <a
+                      href="https://nikkipeel.github.io/tailwind-blog"
+                      class="btn mr-2"
+                      ><i class="fas fa-link"></i> Visit Site</a>
+                    <a
+                      href="https://github.com/nikkipeel/tailwind-blog/"
+                      class="btn"
+                      ><i class="fab fa-github"></i> Github</a>
+                </div>
+              </div>
+            </div> 
+
+            <!-- Project 7 -->
+            <div class="col-md-6 mb-4">
+              <div class="card card-works">
+                <img
+                  src="img/expensetracker.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Expense Tracker</h5>
+                  <h6 class="card-subtitle mb-2">React, Bootstrap</h6>
+                  <p class="card-text">
+                    Expense tracking application built with React and styled with Bootstrap
+                  </p>
+                  <a
+                    href="https://nikkipeel.github.io/expense-tracker-react"
+                    class="btn mr-2"
+                    ><i class="fas fa-link"></i> Visit Site</a
+                  >
+                  <a
+                    href="https://github.com/nikkipeel/expense-tracker-react"
+                    class="btn"
+                    ><i class="fab fa-github"></i> Github</a
+                  >
+                </div>
+              </div>
+            </div> 
+
+              <!-- Project 8 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/lyricssearch.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">LyricsSearch</h5>
+                        <h6 class="card-subtitle mb-2">Javascript</h6>
+                        <p class="card-text">
+                          Find the lyrics of your favorite songs using this
+                          application built with vanilla Javascript
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/lyrics-search/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a href="#" class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+                  <!-- Project 9 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/travelville.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Travelville</h5>
+                        <h6 class="card-subtitle mb-2">Materialize</h6>
+                        <p class="card-text">
+                          Travel agency landing page built with Materialize
+                          featuring full-width slider and search option
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/travelville/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/travelville"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Project 10 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/reactcolors.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">React Colors</h5>
+                        <h6 class="card-subtitle mb-2">React</h6>
+                        <p class="card-text">
+                          Application built with ReactJS featuring generated
+                          palettes and ability to customize
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/react-colors-app/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/react-colors-app"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Project 11 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/tailwindgallery2.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">PhotoSearch</h5>
+                        <h6 class="card-subtitle mb-2">React, TailwindCSS</h6>
+                        <p class="card-text">
+                          Application built with Tailwind CSS uses Pixabay's API to fetch images for search requests
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/tailwind-gallery/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a href="https://www.github.com/nikkipeel/tailwind-gallery" class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+              <!-- Project 12 -->
+              <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/flashcards.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Flash Cards</h5>
+                        <h6 class="card-subtitle mb-2">Javascript</h6>
+                        <p class="card-text">
+                          Flash Cards application with animated background using
+                          CSS keyframes
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/flash-cards"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/flash-cards"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                </div> 
+
+                </div>
+              </div>
+
+              <!-- <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/budgety.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Budgety</h5>
+                        <h6 class="card-subtitle mb-2">Javascript</h6>
+                        <p class="card-text">
+                          Simple budgeting application built using vanilla
+                          Javascript
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/budgety/"
+                          class="btn btn-primary mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a href="#" class="btn btn-primary"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div> -->
+
+                  <!-- Project 13 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/landingpage.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Landing Page</h5>
+                        <h6 class="card-subtitle mb-2">SemanticUI</h6>
+                        <p class="card-text">
+                          Business landing page built with the CSS framework
+                          SemanticUI
+                        </p>
+                        <a
+                          href="https://codepen.io/nikki-peel/full/GRRQwqO"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> View On Codepen</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <!-- Project 14 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/classroom.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Classroom</h5>
+                        <h6 class="card-subtitle mb-2">Bootstrap</h6>
+                        <p class="card-text">
+                          Classroom homepage built with Bootstrap; can be used
+                          as a template and easily customized
+                        </p>
+                        <a
+                          href="https://codepen.io/nikki-peel/full/YzqaLre"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> View On Codepen</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <!-- Project 15 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/nexter.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Nexter</h5>
+                        <h6 class="card-subtitle mb-2">CSS grid, Sass</h6>
+                        <p class="card-text">
+                          Realty landing page built with CSS grid and Sass
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/Nexter/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/Nexter"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+              <!-- Project 16 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/Hangman.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Hangman</h5>
+                        <h6 class="card-subtitle mb-2">React</h6>
+                        <p class="card-text">
+                          Play a game of Hangman using this application built
+                          with ReactJS
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/hangman/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/hangman"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+                  <!-- Project 17 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/scienceproject.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Science Project</h5>
+                        <h6 class="card-subtitle mb-2">Bootstrap</h6>
+                        <p class="card-text">
+                          Website built with Bootstrap for Science Project
+                          featuring Model Rockets
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/science-project/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/science-project"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Project 18 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/todolist.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Todo List App</h5>
+                        <h6 class="card-subtitle mb-2">React</h6>
+                        <p class="card-text">
+                          Simple Todo List app built using ReactJS
+                        </p>
+                        <a
+                          href="https://nikkipeel.github.io/todolist-app/"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> Visit Site</a
+                        >
+                        <a
+                          href="https://github.com/nikkipeel/todolist-app"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Project 19 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/materializeblog.png"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Materialize Blog</h5>
+                        <h6 class="card-subtitle mb-2">Materialize</h6>
+                        <p class="card-text">
+                          Travel blog template built using Google's Materialize
+                          CSS
+                        </p>
+                        <a
+                          href="https://codepen.io/nikki-peel/full/GRpxpew"
+                          class="btn mr-2"
+                          ><i class="fas fa-link"></i> View On Codepen</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev justify-content-between"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next justify-content-between"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </main>
+
+        <main
+          role="main"
+          class="container d-lg-none mx-auto p-4"
+          id="works-mobile"
+        >
+        <div class="card" style="width: 18rem">
+          <img src="img/slider.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Cannabiz</h5>
+            <h6 class="card-subtitle mb-2">
+              HTML, CSS, TailwindCSS
+            </h6>
+            <p class="card-text">
+              Ecommerce page featuring sidebar navigation and full-width carousel
+            </p>
+            <a
+              href="https://nikkipeel.github.io/cannabiz/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/cannabiz"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/tailwindblog.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Tailwind Blog</h5>
+            <h6 class="card-subtitle mb-2">
+              HTML, TailwindCSS
+            </h6>
+            <p class="card-text">
+              Responsive blog template built with TailwindCSS
+            </p>
+            <a
+              href="https://nikkipeel.github.io/tailwind-blog"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/tailwind-blog/"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="img/hero.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">React Pizza</h5>
+            <h6 class="card-subtitle mb-2">
+              React, CSS
+            </h6>
+            <p class="card-text">
+              Ecommerce website for Pizzeria using React, hooks and styled-components
+            </p>
+            <a
+              href="https://nikkipeel.github.io/react-pizza/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/react-pizza"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/flashcards.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Flash Cards</h5>
+            <h6 class="card-subtitle mb-2">Javascript</h6>
+            <p class="card-text">
+              Flash Cards application with animated background using
+              CSS keyframes
+            </p>
+            <a
+              href="https://nikkipeel.github.io/flash-cards"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/flash-cards"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/lyricssearch.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">LyricsSearch</h5>
+            <h6 class="card-subtitle mb-2">Javascript</h6>
+            <p class="card-text">
+              Find the lyrics of your favorite songs using this
+              application built with vanilla Javascript
+            </p>
+            <a
+              href="https://nikkipeel.github.io/lyrics-search/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a href="#" class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/travelville.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Travelville</h5>
+            <h6 class="card-subtitle mb-2">Materialize</h6>
+            <p class="card-text">
+              Travel agency landing page built with Materialize
+              featuring full-width slider and search option
+            </p>
+            <a
+              href="https://nikkipeel.github.io/travelville/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/travelville"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/reactcolors.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">React Colors</h5>
+            <h6 class="card-subtitle mb-2">React</h6>
+            <p class="card-text">
+              Application built with ReactJS featuring generated
+              palettes and ability to customize
+            </p>
+            <a
+              href="https://nikkipeel.github.io/react-colors-app/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/react-colors-app"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/tailwindgallery2.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">PhotoSearch</h5>
+            <h6 class="card-subtitle mb-2">React, TailwindCSS</h6>
+            <p class="card-text">
+              Application built with Tailwind CSS uses Pixabay's API to fetch images for search requests
+            </p>
+            <a
+              href="https://nikkipeel.github.io/tailwind-gallery/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a href="https://www.github.com/nikkipeel/tailwind-gallery" class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/budgety.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Budgety</h5>
+            <h6 class="card-subtitle mb-2">Javascript</h6>
+            <p class="card-text">
+              Simple budgeting application built using vanilla
+              Javascript
+            </p>
+            <a
+              href="https://nikkipeel.github.io/budgety/"
+              class="btn btn-primary mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a href="#" class="btn btn-primary"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/landingpage.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Landing Page</h5>
+            <h6 class="card-subtitle mb-2">SemanticUI</h6>
+            <p class="card-text">
+              Business landing page built with the CSS framework
+              SemanticUI
+            </p>
+            <a
+              href="https://codepen.io/nikki-peel/full/GRRQwqO"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> View On Codepen</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/classroom.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Classroom</h5>
+            <h6 class="card-subtitle mb-2">Bootstrap</h6>
+            <p class="card-text">
+              Classroom homepage built with Bootstrap; can be used
+              as a template and easily customized
+            </p>
+            <a
+              href="https://codepen.io/nikki-peel/full/YzqaLre"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> View On Codepen</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/nexter.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Nexter</h5>
+            <h6 class="card-subtitle mb-2">CSS grid, Sass</h6>
+            <p class="card-text">
+              Realty landing page built with CSS grid and Sass
+            </p>
+            <a
+              href="https://nikkipeel.github.io/Nexter/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/Nexter"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/Hangman.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Hangman</h5>
+            <h6 class="card-subtitle mb-2">React</h6>
+            <p class="card-text">
+              Play a game of Hangman using this application built
+              with ReactJS
+            </p>
+            <a
+              href="https://nikkipeel.github.io/hangman/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/hangman"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/scienceproject.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Science Project</h5>
+            <h6 class="card-subtitle mb-2">Bootstrap</h6>
+            <p class="card-text">
+              Website built with Bootstrap for Science Project
+              featuring Model Rockets
+            </p>
+            <a
+              href="https://nikkipeel.github.io/science-project/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/science-project"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/todolist.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Todo List App</h5>
+            <h6 class="card-subtitle mb-2">React</h6>
+            <p class="card-text">
+              Simple Todo List app built using ReactJS
+            </p>
+            <a
+              href="https://nikkipeel.github.io/todolist-app/"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> Visit Site</a
+            >
+            <a
+              href="https://github.com/nikkipeel/todolist-app"
+              class="btn"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/materializeblog.png" class="card-img-top" alt="..." />
+        
+          <div class="card-body">
+            <h5 class="card-title">Materialize Blog</h5>
+            <h6 class="card-subtitle mb-2">Materialize</h6>
+            <p class="card-text">
+              Travel blog template built using Google's Materialize
+              CSS
+            </p>
+            <a
+              href="https://codepen.io/nikki-peel/full/GRpxpew"
+              class="btn mr-2"
+              ><i class="fas fa-link"></i> View On Codepen</a
+            >
+        </div>
+      </div>
+ 
+          <a href="#works-mobile" class="mx-auto" id="to-top"
+            ><i class="fa fa-arrow-up" aria-hidden="true"></i> Back To Top</a
+          >
+        </main>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
