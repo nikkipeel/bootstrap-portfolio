@@ -80,25 +80,22 @@ nav {
   ) !important;
 }
 
-.navbar-toggler,
-.navbar-toggler-icon {
-  text-decoration: none !important;
-  background-image: none !important;
-  border: none !important;
-}
 
-.navbar-toggler-icon::before {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Font Awesome 5 Free" !important;
-  font-weight: 900;
+.navbar-toggler-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 2rem;
-  content: "\f0c9" !important;
   color: #c31432;
   background-image: none !important;
+  border: none !important;
+} 
+
+button {
+  outline: none !important;
+}
+
+.navbar-toggler {
   border: none !important;
 }
 
@@ -379,4 +376,13 @@ label {
   100% {
     opacity: 1;
   }
+}
+
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
 }

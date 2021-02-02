@@ -41,7 +41,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+      <span id="icon" class="navbar-toggler-icon fas fa-bars"></span>
       </button>
       <div class="collapse navbar-collapse text-center" id="navbarText">
         <ul class="navbar-nav mx-auto mb-4">
@@ -231,7 +231,14 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-
+    <script>
+      let icon = document.getElementById('icon');
+  
+      icon.addEventListener('click', function(){ 
+        icon.classList.toggle('fa-times');
+        icon.classList.toggle('fa-bars');
+      });
+    </script>
 
   </body>
 </html>
